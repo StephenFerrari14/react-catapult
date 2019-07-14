@@ -1,0 +1,30 @@
+{
+  "name": "react-catapult",
+  "version": "1.0.0",
+  "description": "Component to launch content across the screen. No more toasts/popovers, catapults are the future of notifications.",
+  "main": "index.js",
+  "scripts": {
+    "build": "./node_modules/.bin/babel src --out-file index.js",
+    "prepublish": "npm install && npm run build"
+  },
+  "author": "Stephen Ferrari <stephen.ferrari14@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "prop-types": "^15.7.2",
+    "styled-components": "^4.3.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stephenferrari14/react-catapult.git"
+  },
+  "peerDependencies": {
+    "react": "^16.8.6",
+    "react-dom": "^15.0.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.5.0",
+    "@babel/core": "^7.5.4",
+    "@babel/preset-env": "^7.5.4",
+    "@babel/preset-react": "^7.0.0"
+  }
+}
